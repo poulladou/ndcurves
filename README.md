@@ -63,7 +63,7 @@ sudo apt install robotpkg-py3\*-ndcurves # for Python 3
 sudo apt install robotpkg-py27-ndcurves # for Python 2
 ```
 
-Finally you will need to configure your environment variables, e.g.:
+Finally you will need to configure your environment variables, e.g. for Python 3:
 
 ```bash
 export PATH=/opt/openrobots/bin:$PATH
