@@ -58,18 +58,18 @@ sudo apt-get update
 4. The installation of nd-curves:
 
 ```bash
-sudo apt install robotpkg-py3\*-ndcurves # for Python 3
+sudo apt install robotpkg-py38-ndcurves # for Python 3.8
 
-sudo apt install robotpkg-py27-ndcurves # for Python 2
+sudo apt install robotpkg-py27-ndcurves # for Python 2.7
 ```
 
-Finally you will need to configure your environment variables, e.g. for Python 3:
+Finally you will need to configure your environment variables, e.g. for Python 3.8:
 
 ```bash
 export PATH=/opt/openrobots/bin:$PATH
 export PKG_CONFIG_PATH=/opt/openrobots/lib/pkgconfig:$PKG_CONFIG_PATH
 export LD_LIBRARY_PATH=/opt/openrobots/lib:$LD_LIBRARY_PATH
-export PYTHONPATH=/opt/openrobots/lib/python3\*/site-packages:$PYTHONPATH
+export PYTHONPATH=/opt/openrobots/lib/python3.8/site-packages:$PYTHONPATH
 ```
 
 ### Installation from source
